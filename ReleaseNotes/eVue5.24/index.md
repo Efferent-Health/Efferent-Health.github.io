@@ -64,6 +64,20 @@ None
 
 None
 
+## Patch Release 5.24.1
+A patch was released on September 20, 2024, with the following changes.
+
+### Improvements
+
+- **Toolbar Customization:**  With this new implementation, users can now add features from the main toolbar drop-downs to the toolbar based on their preferences. To customize, click on the user button at the top right of the platform and select the toolbar button. Drag the features from the drop-down menus to add them to the toolbar. To remove these functions, simply click on them.
+
+<img width=500 src="gif.gif">
+
+### Bug Fixes
+
+- **Long time for file attachment process:** Delays in attaching files to studies have been corrected.
+
+- **Annotaation display in the print dialog:** Annotations are now displayed at the optimum thickness for viewing in the print dialog. 
 ---
 
 Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at support@efferenthealth.com .
