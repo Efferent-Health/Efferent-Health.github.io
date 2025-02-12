@@ -19,7 +19,7 @@ Release Date:   June, 2024
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
-8. [Patch Release 5.21.1](#patch-release-5-21-1)
+8. [Patch Release 5.21.1](#patch-release-5211)
 
 ## Introduction
 
