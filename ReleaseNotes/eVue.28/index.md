@@ -19,6 +19,7 @@ Release Date:   January, 2025
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
+8. [Patch Release 5.28.1](#patch-release-5281)
 
 ## Introduction
 
@@ -99,6 +100,13 @@ None
 
 None
 
+## Patch Release 5.28.1
+
+A patch was released on February 7, 2025, with the following improvements.
+
+- **Improvement of Modality indexing**: This improvement allows the user to find more recent studies when searching by modality.
+
+- **Study search by patient**: Restrictions were defined for entering a single character in the patient search.
 ---
 
 Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at support@efferenthealth.com .
