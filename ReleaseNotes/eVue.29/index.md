@@ -26,7 +26,11 @@ Welcome to the February 2025 release of Efferent eVue and eFit. This update brin
 
 ## New Features
 
-None
+### New DICOM image generation in eFit
+
+eFit now creates a new DICOM image in a separate series when saving a template. This image contains the implant planning information for hip and knee templates, ensuring compatibility with external DICOM viewers.
+
+<img height=300 src="dicom.png">
 
 ## Improvements
 
@@ -40,7 +44,7 @@ Previously, images uploaded to the platform were not calibrated by default. With
 
 Tagging urgent records is now easier and more intuitive. Instead of checking a "Highlighted" box during tag creation, simply add an exclamation mark (!) at the end of the tag. This will automatically highlight it in red, ensuring urgent items stand out at a glance.
 
-<img width=500 src="tag.png">
+<img width=300 src="tag.png">
 
 <img width=300 src="tag2.png">
 
@@ -79,12 +83,6 @@ eFit now remembers its last window position for a smoother experience. Previousl
 eFit now provides visibility of implant model information. When templating a hip or knee, the implant model number is displayed in the property list of each component. This information is available in the table shown when selecting "Show in Print", ensuring users have quick access to implant details.
 
 <img height=300 src="codes.png">
-
-### New DICOM image generation in eFit
-
-eFit now creates a new DICOM image in a separate series when saving a template. This image contains the implant planning information for hip and knee templates, ensuring compatibility with external DICOM viewers.
-
-<img height=300 src="dicom.png">
 
 ### Template Image Integration in eFit Reports
 eFit reports now display images of the generated hip and knee templates. Previously, reports did not support image visualization. With this update, template images are automatically included, improving documentation and clarity.
