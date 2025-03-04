@@ -42,6 +42,8 @@ Tagging urgent records is now easier and more intuitive. Instead of checking a "
 
 <img width=500 src="tag.png">
 
+<img width=300 src="tag2.png">
+
 ### Enhanced Marker Annotations
 
 Previously, Marker annotations appeared with a black background when added to the DICOM image. With this update, the black background has been removed, ensuring a cleaner and more seamless display.
