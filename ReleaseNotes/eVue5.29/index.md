@@ -48,18 +48,6 @@ Tagging urgent records is now easier and more intuitive. Instead of checking a "
 
 <img width=300 src="tag2.png">
 
-### Enhanced Marker Annotations
-
-Previously, Marker annotations appeared with a black background when added to the DICOM image. With this update, the black background has been removed, ensuring a cleaner and more seamless display.
-
-Before:
-
-<img width=200 src="marker0.png">
-
-After:
-
-<img width=200 src="marker.png">
-
 ### Study Notes
 
 The "Study Annotations" feature has been renamed to "Study Notes" and remains located below the Thumbnails dropdown tab. This update introduces a timestamp displaying the date and time when a note is signed, along with a note counter in the tab for better tracking and organization.
