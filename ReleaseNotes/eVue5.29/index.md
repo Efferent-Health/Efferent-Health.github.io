@@ -19,6 +19,7 @@ Release Date:   February, 2025
 5. [Deprecations](#deprecations)
 6. [Known Issues](#known-issues)
 7. [Upcoming Features](#upcoming-features)
+8. [Patch Release 5.29.1](#patch-release-5291)
 
 ## Introduction
 
@@ -97,6 +98,13 @@ None
 
 None
 
+## Patch Release 5.29.1
+
+A patch was released on March 7, 2025, with the following improvements.
+
+- **Enhanced Warning for Study Upload with Existing IDg**: Updated warning message displayed when attempting to upload a study with an existing PID.
+
+- **Smaller font size for annotations**: Font size 8 added to the available options in Font Properties in Settings.
 ---
 
 Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at support@efferenthealth.com .
