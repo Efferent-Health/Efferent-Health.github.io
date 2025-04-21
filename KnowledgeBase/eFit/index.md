@@ -250,3 +250,12 @@ _Size Adjustment_
 _Position and Rotation_
 
    <img width=500 src="gif2.gif">
+   <br><br>
+
+ 13. Final steps. Once the template has been generated, the user has the option to save the current view as a Key Image, which is particularly useful for comparing different implant models over the same image. Alternatively, the user can simply save the template without creating a Key Image.
+
+ <img width=500 src="key image.png">
+
+ 14. To create a report click the Generate Report button to open a preview. In this view, the user can review the information to be included, toggle the visibility of suggested fields, and add Key Images to the report as needed. This allows for a customizable and comprehensive summary of the planning session.
+
+<img width=400 src="report0.png">
