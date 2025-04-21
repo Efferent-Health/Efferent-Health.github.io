@@ -40,7 +40,7 @@ _View for Knee_:
 The view orientation refers to the direction from which the image was captured and displayed. It is important for accurate templating and for ensuring that measurements and implant positioning are based on the correct anatomical perspective. In eFit, this is indicated as either AP or PA.
 - **AP (Anteroposterior):** The X-ray beam enters the front (anterior) of the patient and exits though the back (posterior). This is the most common orientation used for imaging joint such as the knee and hip.
 
- - **AP (Anteroposterior):** The X-Ray beam enters from the back (posterior) and exits through the front (anterio) of the patient. PA views may be used depending on clinical preference or specific im
+ - **PA (Posteroanterior):** The X-Ray beam enters from the back (posterior) and exits through the front (anterior) of the patient. PA views may be used depending on clinical preference or specific im
  aging requirements.
 
 _View for hip_:
@@ -105,7 +105,7 @@ Users can save commonly used implants to a list of favorites for quicker access 
 
 The list of saved favorites can be accessed from the ORTHO tab in the Settings menu. From this view, users can also create new favorites manually and manage existing ones—editing or removing entries as needed.
 
-<img width=400 src="fav2.png">
+<img width=600 src="fav2.png">
 
 ### Show in Print 
 
@@ -189,19 +189,19 @@ The following section provides a detailed, step-by-step explanation of the manua
 
   - If the icon appears blue, the image is already calibrated and you may continue with the next steps.
 
-Now that the image is calibrated, you can begin the Design process, starting with the **AP view**.
+Now that the image is calibrated, you can begin the Design process by choosing either the AP or Lateral view as your starting point. In this example, we will begin with the AP view.
 
 5. Click "Femoral Axis & Width" to start the annotation. Instructions will appear in the panel to guide you through the process. Once you complete the first group of points, a ✔ icon will appear, indicating that the step is finished.
 
 <img width=500 src="femoral.png">
 <br><br>
 
-6. Click "Distal Femoral Condyles" and place points on the mdistal medial and lateral femoral condyles. These points are optional and only required if you wish to obtain the resection value.
+6. Click "Distal Femoral Condyles" and place points on the distal medial and lateral femoral condyles. These points are optional and only required if you wish to obtain the resection value.
 
 <img width=500 src="distal.png">
 <br><br>
 
-7. Click "Tibial Resec. Depth" and place points on the medial and lateral femoral condyles. This step is optional and only necessary if you want to calculate the resection value.
+7. Click "Tibial Resec. Depth" and place points on the medial and lateral femoral condyles. This step is optional and only necessary if you want to calculate the resection values.
 
 <img width=500 src="tibial.png">
 <br><br>
@@ -234,6 +234,8 @@ Once you’ve completed the annotations on the AP view, continue the Design proc
       <img width=500 src="axis2.png">
       
       You can edit individual points or drag the entire annotation as a group to adjust its position.
+
+#### Implant Placement
 
 The following steps describe how to **add implants** based on the anatomical landmarks defined during the design phase. However, it is important to note that users may also choose to bypass the annotation process and place implants directly on the image, after calibration. This alternative workflow may be suitable in scenarios where precise measurement is not required or when the user opts for a simplified approach for visual assessment or reference.
 
