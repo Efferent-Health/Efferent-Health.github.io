@@ -243,7 +243,7 @@ The following steps describe how to **add implants** based on the anatomical lan
 
       <img width=600 src="implants1.png">
 
-12. Adjust the implant size by clicking the Size field to display the available options, or use the (–) and (+) buttons to modify it incrementally. You can adjust the position and rotation of each component directlh on the image. To reposition it, click and drag the yellow point. When selected, an orange point will appear - drag this point to rotate the implant to the desired angle. To remove the implant from the view, click the Clear button.
+12. Adjust the implant size by clicking the Size field to display the available options, or use the (–) and (+) buttons to modify it incrementally. You can adjust the position and rotation of each component directly on the image. To reposition it, click and drag the yellow point. When selected, an orange point will appear - drag this point to rotate the implant to the desired angle. To remove the implant from the view, click the Clear button.
 
 _Size Adjustment_
    
