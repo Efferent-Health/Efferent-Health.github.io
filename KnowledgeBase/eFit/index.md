@@ -15,9 +15,9 @@ Last Update:   April, 2025
 1. [Introduction](#introduction)
 2. [General Concepts](#general-concepts)
 3. [AI feature](#ai-feature)
-- [Autosizing](#autosizing)
+   - [Autosizing](#autosizing)
 5. [Manual Templating](#manual-templating)
-- [Knee](#knee)
+   - [Knee](#knee)
 
 
 ## Introduction
