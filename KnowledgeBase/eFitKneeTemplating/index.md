@@ -2,11 +2,11 @@
 
 <br/>
 
-# eFit User Manual
+# Knowledge Base Article
 
 ```
 Product Name:  eFit
-Article Topic: Templating process
+Article Topic: Knee Templating
 Last Update:   April, 2025
 ```
 
@@ -16,8 +16,7 @@ Last Update:   April, 2025
 2. [General Concepts](#general-concepts)
 3. [AI feature](#ai-feature)
    - [Autosizing](#autosizing)
-5. [Manual Templating](#manual-templating)
-   - [Knee](#knee)
+4. [Manual Templating](#manual-templating)
 
 
 ## Introduction
@@ -168,7 +167,6 @@ Before starting any manual templating process, make sure to follow these initial
 <br><br>
 The following section provides a detailed, step-by-step explanation of the manual templating process.
 
-### Knee
 1. Click the Knee implant button. A small dialog will appear. 
 2. After selecting the laterality, two additional buttons will be displayed: AP for the front (anterior-posterior) view and LAT for the side (lateral) view. Once you click each view button, you must select the viewport where that view is located. You can choose to work with either one view or both views, depending on the requirements of your procedure. 
 
