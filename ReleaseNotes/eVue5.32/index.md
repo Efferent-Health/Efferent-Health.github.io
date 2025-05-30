@@ -42,11 +42,6 @@ We are introducing a redesigned Upload experience in eVue, built to improve data
 
 **DISCARD**: Exclude a study from the upload.
 
-
-
-• **Pre-Upload evaluation**: The system automatically evaluates each study after scanning, displaying contextual inline notifications above the data tables. These alerts include intuitive icons that signal issues like demographic discrepancies or potential duplicates, giving users immediate feedback before uploading.
-
-
 _SmartUpload: AS IS option selected_
 
 <img width=900 src="smartupload.png">
@@ -69,7 +64,7 @@ _SmartUpload: EDIT option_
 
 <br>
 
-**• Discrepancy Quarantine feature:** If a user proceeds to upload a study despite system warnings indicating that the same study already exists in the cloud with differing demographic data, the platform will automatically redirect the existing version to the quarantine worklist. All users can view studies in the quarantine list, but only those with admin roles can take further actions—such as editing the study’s demographics through Admin Tools > Edit Study or confirming it as-is before restoring it to the worklist. When a study is sent to quarantine, the Quarantine Worklist button in the interface turns orange, visually signaling the presence of unresolved items. 
+**• Discrepancy Quarantine feature:** If a user proceeds to upload a study despite system warnings indicating that the same study already exists in the cloud with differing demographic data, the platform will automatically redirect the current version to the quarantine worklist. All users can view studies in the quarantine list, but only those with admin roles can take further actions—such as editing the study’s demographics through Admin Tools > Edit Study or confirming it as-is before restoring it to the worklist. When a study is sent to quarantine, the Quarantine Worklist button in the interface turns orange, visually signaling the presence of unresolved items. 
 
 _Quarantine Worklist button_
 
@@ -105,7 +100,7 @@ Navigation behavior has been refined—after viewing a study, users are now retu
 ## Bug Fixes
 
 - **Studies shared via QR code opened in High-Res mode by default**: When scanning studies shared via QR, they were automatically converted to HD.
-- **Context menu event did not work on input text form elements:** The context menu with options like copy and paste would not appear when right-clicking on any text input field.
+- **Context menu event did not work on input text form elements:** The context menu with options like copy and paste did not appear when right-clicking on any text input field.
 
 
 
