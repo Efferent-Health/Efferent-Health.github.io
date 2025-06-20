@@ -33,8 +33,17 @@ A new recommended window level (W-L) preset for soft tissue images has been adde
 ### Improved Patient Data Validation in Upload
 The data evaluation criteria in the EDIT section of the Upload module have been refined. The system no longer treats commas as a differentiating factor and now detects similarities in patient data with greater accuracy. This reduces false inconsistencies and prevents studies from being unnecessarily sent to quarantine when the uploaded studies already exist in the system.
 
-## Performance Improvement: Caching for Multiframe Studies
+### Performance Improvement: Caching for Multiframe Studies
 Implemented a caching mechanism to store frames from multiframe studies — especially those that are large and resource-intensive — to improve loading speed and overall viewer performance.
+
+### Support for PDF DICOM Files
+eVue now supports non-image PDF DICOM files without errors. When a PDF is present instead of an image:
+
+- An icon labeled "PDF" is displayed
+
+- Opening the PDF launches it in a new browser window.
+
+
 
 ## Bug Fixes
 
