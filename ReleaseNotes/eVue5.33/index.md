@@ -33,6 +33,9 @@ A new recommended window level (W-L) preset for soft tissue images has been adde
 ### Improved Patient Data Validation in Upload
 The data evaluation criteria in the EDIT section of the Upload module have been refined. The system no longer treats commas as a differentiating factor and now detects similarities in patient data with greater accuracy. This reduces false inconsistencies and prevents studies from being unnecessarily sent to quarantine when the uploaded studies already exist in the system.
 
+## Performance Improvement: Caching for Multiframe Studies
+Implemented a caching mechanism to store frames from multiframe studies — especially those that are large and resource-intensive — to improve loading speed and overall viewer performance.
+
 ## Bug Fixes
 
 - **Images Failing to Load on Safari (iPad)**: Resolved an issue where studies would fail to load images when accessed via Safari on iPads running the latest iOS version. Images now display correctly across all supported devices and browsers.
