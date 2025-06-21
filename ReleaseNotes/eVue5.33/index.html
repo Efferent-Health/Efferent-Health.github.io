@@ -1,6 +1,6 @@
 <html>
     <head>
-    <head>
+        <title>Release Notes</title>
         <style>
             .markdown-body img {
               padding-bottom: 10px;
@@ -1224,12 +1224,12 @@
 
 <br/>
 
-<h1>Release Notes</h1>
+<h1 id='release-notes'>Release Notes</h1>
 <pre><code>Product Name:   eVue and eFit
 Version Number: 5.33
 Release Date:   June, 2025
 </code></pre>
-<h2>Table of Contents</h2>
+<h2 id='table-of-contents'>Table of Contents</h2>
 <ol>
 <li><a href="#introduction">Introduction</a></li>
 <li><a href="#improvements">Improvements</a></li>
@@ -1238,26 +1238,38 @@ Release Date:   June, 2025
 <li><a href="#known-issues">Known Issues</a></li>
 <li><a href="#upcoming-features">Upcoming Features</a></li>
 </ol>
-<h2>Introduction</h2>
+<h2 id='introduction'>Introduction</h2>
 <p>Welcome to the June 2025 release of Efferent eVue and eFit. This update brings overall stability improvements and minor bug fixes to enhance consistency and usability. While no new features are included this time, the refinements made help ensure a more reliable experience.</p>
-<h2>Improvements</h2>
-<h3>New Soft Tissue W-L Preset</h3>
+<h2 id='improvements'>Improvements</h2>
+<h3 id='new-soft-tissue-w-l-preset'>New Soft Tissue W-L Preset</h3>
 <p>A new recommended window level (W-L) preset for soft tissue images has been added. Like other organ-specific presets, it is available in the Image Render menu when images are viewed in HD mode, providing optimized visualization for soft tissue structures.</p>
 <img width=400 src="softissue.png">
 
-<h3>Improved Patient Data Validation in Upload</h3>
+<h3 id='improved-patient-data-validation-in-upload'>Improved Patient Data Validation in Upload</h3>
 <p>The data evaluation criteria in the EDIT section of the Upload module have been refined. The system no longer treats commas as a differentiating factor and now detects similarities in patient data with greater accuracy. This reduces false inconsistencies and prevents studies from being unnecessarily sent to quarantine when the uploaded studies already exist in the system.</p>
-<h2>Bug Fixes</h2>
+<h3 id='performance-improvement-caching-for-multiframe-studies'>Performance Improvement: Caching for Multiframe Studies</h3>
+<p>Implemented a caching mechanism to store frames from multiframe studies — especially those that are large and resource-intensive — to improve loading speed and overall viewer performance.</p>
+<h3 id='support-for-pdf-dicom-files'>Support for PDF DICOM Files</h3>
+<p>eVue now supports non-image PDF DICOM files without errors. When a PDF is present instead of an image:</p>
+<ul>
+<li><p>An icon labeled &quot;PDF&quot; is displayed</p>
+</li>
+<li><p>Opening the PDF launches it in a new browser window.</p>
+</li>
+</ul>
+<img width=500 src="pdf.png">
+
+<h2 id='bug-fixes'>Bug Fixes</h2>
 <ul>
 <li><strong>Images Failing to Load on Safari (iPad)</strong>: Resolved an issue where studies would fail to load images when accessed via Safari on iPads running the latest iOS version. Images now display correctly across all supported devices and browsers.</li>
 <li><strong>Quarantine Info Box Displayed in Incorrect View:</strong> Fixed an issue where the informative box for Quarantine appeared in the wrong view (Inspect). It now displays only in the appropriate context during the Edit process for quarantined studies.</li>
 <li><strong>Progress Bar Not Reaching 100% on Scan Completion</strong>: Resolved an issue where the progress bar would not reach 100% at the end of the scanning process when images with errors were present. The bar now correctly reflects completion status, including errored images.</li>
 </ul>
-<h2>Deprecations</h2>
+<h2 id='deprecations'>Deprecations</h2>
 <p>None</p>
-<h2>Known Issues</h2>
+<h2 id='known-issues'>Known Issues</h2>
 <p>None</p>
-<h2>Upcoming Features</h2>
+<h2 id='upcoming-features'>Upcoming Features</h2>
 <p>None</p>
 <hr>
 <p>Thank you for being a valued user of Efferent. We hope these updates enhance your experience. For any questions or feedback, please contact our support team at <a href="mailto:support@efferenthealth.com">support@efferenthealth.com</a> .</p>
