@@ -26,7 +26,7 @@ Welcome to the June 2025 release of Efferent eVue and eFit. This update brings o
 ## Improvements
 
 ### New Soft Tissue W-L Preset
-A new recommended window level (W-L) preset for soft tissue images has been added. Like other organ-specific presets, it is available in the Image Render menu when images are viewed in HD mode, providing optimized visualization for soft tissue structures.
+A new window level (W-L) preset for soft tissue images has been added. Like other organ-specific presets, it is available in the Image Render menu when images are viewed in HD mode, providing optimized visualization for soft tissue structures.
 
 <img width=400 src="softissue.png">
 
@@ -47,9 +47,9 @@ eVue now supports non-image PDF DICOM files without errors. When a PDF is presen
 
 ## Bug Fixes
 
-- **Images Failing to Load on Safari (iPad)**: Resolved an issue where studies would fail to load images when accessed via Safari on iPads running the latest iOS version. Images now display correctly across all supported devices and browsers.
+- **Images Failing to Load on Safari (iPad)**: Resolved an issue where studies would fail to load and show images when accessed via Safari on iPads running the latest iOS version. Images now display correctly across all supported devices and browsers.
 - **Quarantine Info Box Displayed in Incorrect View:** Fixed an issue where the informative box for Quarantine appeared in the wrong view (Inspect). It now displays only in the appropriate context during the Edit process for quarantined studies.
-- **Progress Bar Not Reaching 100% on Scan Completion**: Resolved an issue where the progress bar would not reach 100% at the end of the scanning process when images with errors were present. The bar now correctly reflects completion status, including errored images.
+- **Upload - Progress Bar Not Reaching 100% on Scan Completion**: Resolved an issue where the progress bar would not reach 100% at the end of the scanning process when images with errors were present. The bar now correctly reflects completion status, including errored images.
 
 
 ## Deprecations
