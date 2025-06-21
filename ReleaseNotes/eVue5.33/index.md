@@ -62,8 +62,8 @@ None
 
 ## Upcoming Features
 
-None
-
+### New Login page
+A new login page is being prepared to address frequent access issues, particularly for patients and guest practitioners. It will also enhance the user experience on smartphones.
 
 ---
 
