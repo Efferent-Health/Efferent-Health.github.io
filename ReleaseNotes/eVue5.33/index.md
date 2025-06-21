@@ -43,6 +43,8 @@ eVue now supports non-image PDF DICOM files without errors. When a PDF is presen
 
 - Opening the PDF launches it in a new browser window.
 
+<img width=500 src="pdf.png">
+
 ## Bug Fixes
 
 - **Images Failing to Load on Safari (iPad)**: Resolved an issue where studies would fail to load images when accessed via Safari on iPads running the latest iOS version. Images now display correctly across all supported devices and browsers.
