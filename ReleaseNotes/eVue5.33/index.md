@@ -54,7 +54,8 @@ eVue now supports non-image PDF DICOM files without errors. When a PDF is presen
 
 ## Deprecations
 
-None
+### SmartLink 4
+Support for SmartLink’s 4th generation has officially ended after several years in production. All SmartLinks are now upgraded to version 5, offering improved connectivity with eVue in both hybrid and offline modes. Watch this tutorial video: https://www.efferenthealth.com/kb/Offline%20and%20hybrid%20modes.mp4
 
 ## Known Issues
 
