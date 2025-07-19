@@ -25,6 +25,14 @@ Welcome to the July 2025 release of Efferent eVue and eFit. This release introdu
 
 ## Improvements
 
+### Improvement in the Edit Study Interface
+
+The Edit Study interface has been enhanced to offer a more intuitive and visually organized experience. The updated layout provides a cleaner, more structured design, making it easier for users to access and edit study information. Additionally, the interface now supports the editing of all necessary fields for resources, streamlining the process and improving overall usability.
+
+<img width=500 src="edit.png">
+
+<img width=400 src="edit2.png">
+
 ### Multi-study Sharing via SmartShare
 SmartShare now supports selecting and sending multiple studies in a single email. Previously, only one study could be shared at a time. This enhancement streamlines the sharing process, especially when multiple studies need to be reviewed together. 
 
