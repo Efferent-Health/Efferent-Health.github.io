@@ -32,12 +32,13 @@ The upload functionality has been extended to support additional file types, inc
 
 <img width=400 src="uploadpdf.png">
 
+Unlike the Attach feature, the PDF files are uploaded here as embedded PDFs, and not converted into images (one per page). This means eVue will show the whole document as a clickable PDF icon.
 
 ## Improvements
 
-### Improvement in the Edit Study Interface
+### Improvement in the Edit Study page
 
-The Edit Study interface has been enhanced to offer a more intuitive and visually organized experience. The updated layout provides a cleaner, more structured design, making it easier for users to access and edit study information. Additionally, the interface now supports the editing of all necessary fields for resources, streamlining the process and improving overall usability.
+The Edit Study page has been enhanced to offer a more intuitive and visually organized experience. The updated layout provides a cleaner, more structured design, making it easier for users to access and edit study information. Additionally, the interface now supports the editing of all necessary fields for resources, streamlining the process and improving overall usability.
 
 <img width=500 src="edit.png">
 
@@ -75,7 +76,7 @@ Added a new “Notes” field to the eFit report. The content for this field is 
 
 ## Known Issues
 
-- **Save required before editing patient information**: Currently, any changes made in the study edit fields must be saved before opening the patient edit form. This is being reviewed for resolution in a future update.
+- **Save required before editing patient information**: Currently, in the Edit Study page, any changes made study fields must be saved before opening the Edit Patient form. This is being reviewed for resolution in a future update.
 
 ## Upcoming Features
 
