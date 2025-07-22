@@ -23,6 +23,15 @@ Release Date:   July, 2025
 
 Welcome to the July 2025 release of Efferent eVue and eFit. This release introduces functional improvements and bug fixes aimed at optimizing performance and enhancing the user experience across key workflows. 
 
+## New features
+
+### Upload Feature Now Supports PDFs and Image Files
+
+The upload functionality has been extended to support additional file types, including PDF and image files (JPEG, JPG, PNG). Previously, only DICOM and video files were supported. When uploading these new file types, users are required to manually provide key patient information—such as Patient ID, Name, and Date of Birth—in order to generate the study record and enable visualization of the uploaded content.
+
+<img width=400 src="uploadpdf.png">
+
+
 ## Improvements
 
 ### Improvement in the Edit Study Interface
@@ -65,7 +74,7 @@ Added a new “Notes” field to the eFit report. The content for this field is 
 
 ## Known Issues
 
-None
+- **Save required before editing patient information**: Currently, any changes made in the study edit fields must be saved before opening the patient edit form. This is being reviewed for resolution in a future update.
 
 ## Upcoming Features
 
