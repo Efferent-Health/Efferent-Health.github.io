@@ -13,12 +13,11 @@ Release Date:   June, 2025
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [New Features](#improvements)
-3. [Improvements](#improvements)
-4. [Bug Fixes](#bug-fixes)
-5. [Deprecations](#deprecations)
-6. [Known Issues](#known-issues)
-7. [Upcoming Features](#upcoming-features)
+2. [Improvements](#improvements)
+3. [Bug Fixes](#bug-fixes)
+4. [Deprecations](#deprecations)
+5. [Known Issues](#known-issues)
+6. [Upcoming Features](#upcoming-features)
 
 ## Introduction
 
