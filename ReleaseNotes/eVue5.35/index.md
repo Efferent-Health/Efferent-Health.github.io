@@ -37,7 +37,6 @@ _Before:_
 _After:_
 
 <img width=400 src="afterhip.png">
-
 <img width=400 src="after2hip.png">
 
 ### eFit autosizing enhancement
