@@ -41,6 +41,10 @@ The Related Worklist now displays all studies for a patient, regardless of wheth
 
 Memory management has been optimized for heavy multiframe studies, improving overall performance and stability of the application, particularly on machines with limited resources.
 
+### Performance Optimization for Filters
+
+Across the week, it may be noticeable a gradual increase of performance when applying filters in worklists. That may also have an impact in other operations like uploads and study viewing.
+
 ## Bug Fixes
 
 - **PR Studies Not Displaying When Recall Last Display Mode is Set to Tile**: Resolved an issue where enabling the “Recall last display mode” option with Tile mode as the saved state caused PR studies to fail to display images in the viewport.
