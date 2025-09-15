@@ -28,7 +28,7 @@ Welcome to the July 2025 release of Efferent eVue and eFit. This release introdu
 
 ### Upload Feature Now Supports PDFs and Image Files
 
-The upload functionality has been extended to support additional file types, including PDF and image files (JPEG, JPG, PNG). Previously, only DICOM and video files were supported. When uploading these new file types, users are required to manually provide key patient information—such as Patient ID, Name, and Date of Birth—in order to generate the study record and enable visualization of the uploaded content.
+The upload functionality has been extended to support additional file types, including PDF and image files (JPEG, JPG). Previously, only DICOM and video files were supported. When uploading these new file types, users are required to manually provide key patient information—such as Patient ID, Name, and Date of Birth—in order to generate the study record and enable visualization of the uploaded content.
 
 <img width=400 src="uploadpdf.png">
 
