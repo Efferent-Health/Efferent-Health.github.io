@@ -29,7 +29,7 @@ Welcome to the October 2025 release of Efferent eVue. This release focuses on en
 
 A new dual-search capability has been implemented in the search bar. Users can now search using two independent fields, with the option to leave the second field empty. This improves flexibility when searching for studies or patients.
 
-<img width=600 src="search.gif">
+<img width=600 src="dualsearch.gif">
 
 ### Enhanced Patient Matching in Upload DICOM
 
