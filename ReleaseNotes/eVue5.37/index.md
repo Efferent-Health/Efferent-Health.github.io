@@ -29,7 +29,7 @@ Welcome to the October 2025 release of Efferent eVue. This release focuses on en
 
 A new dual-search capability has been implemented in the search bar. Users can now search using two independent fields, with the option to leave the second field empty. This improves flexibility when searching for studies or patients.
 
-<img width=600 src="SEARCH2.png">
+<img width=600 src="dualsearch.gif">
 
 ### Enhanced Patient Matching in Upload DICOM
 
@@ -47,25 +47,9 @@ A new checkbox has been added to Quick Print settings, allowing users to hide ov
 
 <img width=450 src="hideoverlay.png">
 
-### Master Patient Directory
-
-All Patient resources have been reimported with updated PIDs, ensuring that only current and valid identifiers are maintained. Legacy or outdated PIDs have been excluded to improve data consistency across organizations.
-
 ### Unified Worklist for OSM Organizations
 
 A unified worklist view has been implemented for OSM organizations, replacing the global reader approach. This simplifies user workflows and improves visibility of organization-specific tasks.
-
-### Dual PID Display in Worklist
-
-The worklist now displays both Enterprise ID and Local ID for each patient, providing a clearer view of patient identifiers within the current organizational context.
-
-### Patient Edit – PID Management
-
-Users can now view and manage all PIDs associated with a patient within OSM organizations. This enhancement improves transparency and data accuracy during patient editing.
-
-### Worklist Auto Refresh
-
-A new operation has been implemented to automatically refresh the worklist when new records are detected. This ensures users always see the most recent data without manual refresh.
 
 ### Scale Ruler in viewport
 
@@ -87,7 +71,9 @@ _Scale ruler enabled in viewport_:
 
 ## Deprecations
 
-None
+### Offline Mode Removal
+
+The Offline Mode feature, which allowed users to access cached data when an internet connection was unavailable, has been removed. This change will enable the development of an improved and more reliable solution for offline access in future releases.
 
 ## Known Issues
 
@@ -95,7 +81,9 @@ None
 
 ## Upcoming Features
 
-None
+### Dektop eVue
+
+We’re introducing Desktop eVue, a new desktop application designed to support both Offline and Hybrid modes. This version delivers significant improvements in performance, reliability, and overall user experience. With Desktop eVue, users can continue working seamlessly even without an internet connection, and enjoy faster data access, smoother workflows, and enhanced stability when viewing and managing images.
 
 ---
 
