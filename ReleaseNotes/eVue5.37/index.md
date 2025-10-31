@@ -35,6 +35,8 @@ A new dual-search capability has been implemented in the search bar. Users can n
 
 The patient detection feature in the Upload DICOM view has been enhanced to support dual matching criteria. The system now identifies related patients by both Patient ID and Name + Date of Birth (DOB), displaying results in two separated lists. Duplicate entries are prevented, ensuring accurate and transparent patient matching.
 
+<img width=5000 src="match.png">
+
 ### Overlay Text Expansion
 
 The overlay text feature has been enhanced to support all four corners of the viewport, allowing up to eight lines per corner. This provides more flexibility for displaying important information without cluttering the image.
