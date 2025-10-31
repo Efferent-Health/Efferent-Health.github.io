@@ -7,7 +7,7 @@
 ```
 Product Name:   eVue
 Version Number: 5.37
-Release Date: October, 2025
+Release Date:   October, 2025
 ```
 
 ## Table of Contents
@@ -48,10 +48,6 @@ The overlay text feature has been enhanced to support all four corners of the vi
 A new checkbox has been added to Quick Print settings, allowing users to hide overlay text when printing. This gives users control over the amount of detail shown in printed outputs.
 
 <img width=450 src="hideoverlay.png">
-
-### Unified Worklist for OSM Organizations
-
-A unified worklist view has been implemented for OSM organizations, replacing the global reader approach. This simplifies user workflows and improves visibility of organization-specific tasks.
 
 ### Scale Ruler in viewport
 
