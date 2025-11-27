@@ -61,6 +61,12 @@ _Scale ruler enabled in viewport_:
 
 <img width=300 src="ruler.png">
 
+### Enhanced Patient ID Management
+
+Patient ID management has been implemented within the Edit Study view in Admin Tools. Administrators can now add or remove patient identifiers associated with each study, enabling faster and more accurate updates to patient information.
+
+<img width=400 src="editpatient.png">
+
 ## Bug Fixes
 
 - **Window/Level Reset on Quick Compare**: window/level settings were being reset when switching between Quick Compare or changing viewports. The image now retains its display parameters as expected.
