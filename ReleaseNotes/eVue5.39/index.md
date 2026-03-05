@@ -7,7 +7,7 @@
 ```
 Product Name:   eVue and eFit
 Version Number: 5.39
-Release Date:   March, 2026
+Release Date:   February, 2026
 ```
 
 ## Table of Contents
@@ -21,7 +21,7 @@ Release Date:   March, 2026
 
 ## Introduction
 
-Welcome to the January 2026 release of Efferent eVue. This release focuses on enhancing functionality and refining usability to deliver a smoother, more intuitive experience across the platform. Improvements have been designed to streamline workflows, increase responsiveness, and provide greater consistency.
+Welcome to the February 2026 release of Efferent eVue. This update introduces *eVue Desktop*, a desktop version of eVue designed to provide a more stable and responsive user experience. It also includes enhancements to the *eFit interface and navigation*, along with new options such as *viewport background color selection* and *image inversion for printing.*
 
 ## New Features
 
