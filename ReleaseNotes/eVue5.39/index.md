@@ -23,9 +23,21 @@ Release Date:   March, 2026
 
 Welcome to the January 2026 release of Efferent eVue. This release focuses on enhancing functionality and refining usability to deliver a smoother, more intuitive experience across the platform. Improvements have been designed to streamline workflows, increase responsiveness, and provide greater consistency.
 
-## New Feature
+## New Features
 
 ### eVue Desktop
+
+A new eVue Desktop application has been developed to provide a more fluid and stable user experience. This desktop version enables users to continue working even without an active internet connection by accessing imaging studies previously stored in the SmartLink cache.
+
+<img width=600 src="evuedesktop1.png">
+
+When the application detects that the system is operating without connectivity to the cloud, it automatically switches to **offline mode**. During this state, a subtle red indicator bar will appear in the interface to inform the user that the application is currently operating offline. Users can continue reviewing studies that are available in the local cache.
+
+<img width=600 src="evuedesktop2.png">
+
+When the connection to the cloud is restored, an informational message will appear, allowing the user to reconnect and resume normal online operation.
+
+<img width=600 src="evuedesktop3.png">
 
 ## Improvements
 
