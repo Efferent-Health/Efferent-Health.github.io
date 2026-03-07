@@ -1,75 +1,443 @@
 <!DOCTYPE html>
-<html>
-    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efferent Health Resources</title>
     <style>
-    body
-    {
-        max-width: 1000px;
-        margin:    0 auto;
-        font-family: Open Sans, Helvetica, sans-serif;
-    }
-    
-    .logo
-    {
-        margin-top: 10px;
-        margin-bottom: 20px;
-    } 
-    </style>   
+        @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap");
 
-    <body>
-        <img class="logo" width="300" alt="logo" src="./efferent_logo.png" />
-        <h1>Efferent Release Notes</h1>
-        <h2>eVue and eFit</h2>
-        <ul>
-            <li><a href="./ReleaseNotes/eVue5.20/index.html">5.20 - May 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.21/index.html">5.21 - June 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.22/index.html">5.22 - July 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.23/index.html">5.23 - August 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.24/index.html">5.24 - September 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.25/index.html">5.25 - October 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.26/index.html">5.26 - November 2024</a></li>
-            <li><a href="./ReleaseNotes/eVue5.27/index.html">5.27 - December 2024</a></li>
-            
-            <li><a href="./ReleaseNotes/eVue5.28/index.html">5.28 - January 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.29/index.html">5.29 - February 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.32/index.html">5.32 - May 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.33/index.html">5.33 - June 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.34/index.html">5.34 - July 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.35/index.html">5.35 - August 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.36/index.html">5.36 - September 2025</a></li>
-            <li><a href="./ReleaseNotes/eVue5.37/index.html">5.37 - November 2025</a></li>
+        :root {
+            --bg: #eef2f5;
+            --surface: rgba(255, 255, 255, 0.78);
+            --border: rgba(17, 35, 58, 0.09);
+            --text: #11233a;
+            --muted: #607085;
+            --accent: #0f7c82;
+            --accent-strong: #0d5d62;
+            --accent-soft: rgba(15, 124, 130, 0.1);
+            --shadow: 0 24px 60px rgba(38, 63, 92, 0.14);
+            --radius-xl: 28px;
+            --radius-md: 16px;
+        }
 
-            <li><a href="./ReleaseNotes/eVue5.38/index.html">5.38 - January 2026</a></li>
-            <li><a href="./ReleaseNotes/eVue5.39/index.html">5.39 - February 2026</a></li>
-        </ul>
-        
-        <h2>SmartLink</h2>
-        <ul>
-            <li><a href="./ReleaseNotes/Smartlink5.20/index.html">5.20 - May 2024</a></li>
-            <li><a href="./ReleaseNotes/Smartlink5.21/index.html">5.21 - June 2024</a></li>
-            <li><a href="./ReleaseNotes/Smartlink5.22/index.html">5.22 - July 2024</a></li>
-            <li><a href="./ReleaseNotes/Smartlink5.23/index.html">5.23 - August 2024</a></li>
-            <li><a href="./ReleaseNotes/Smartlink5.27/index.html">5.27 - December 2024</a></li>
-            <li><a href="./ReleaseNotes/Smartlink5.33/index.html">5.33 - June 2025</a></li>
-        </ul>
+        * {
+            box-sizing: border-box;
+        }
 
-        <h1>Knowledge Base</h1>
-        <h2>eVue</h2>
-        <ul>
-            <li><a href="./KnowledgeBase/SmartShareReceiver/index.html">SmartShare receiver</a></li>
-            <li><a href="./KnowledgeBase/Anonymization/index.html">Anonymization and de-identification</a></li>
-            <li><a href="./KnowledgeBase/eVueFeatures/index.html">eVue features per role</a></li>
-        </ul>
-        <h2>eFit Videos</h2>
-        <ul>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%201.mp4">Part 1 - Calibration overview</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%202.mp4">Part 2 - Manual mode - Hip</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%202a.mp4">Part 2a - Manual mode - Knee</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%203.mp4">Part 3 - Saving Favorites</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%204.mp4">Part 4 - AI Workflow - Hip</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%204a.mp4">Part 4a - AI Workflow - Knee</a></li>
-            <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%205.mp4">Part 5 - Calibration, AI, SmartShare</a></li>
-        </ul>
-    </body>    
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(15, 124, 130, 0.15), transparent 28%),
+                radial-gradient(circle at top right, rgba(17, 35, 58, 0.08), transparent 24%),
+                linear-gradient(180deg, #f7fafc 0%, var(--bg) 52%, #e7edf2 100%);
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.35) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.35) 1px, transparent 1px);
+            background-size: 32px 32px;
+            mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.28), transparent 90%);
+        }
+
+        a {
+            color: inherit;
+        }
+
+        .page {
+            width: min(1120px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 36px 0 64px;
+            position: relative;
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+            gap: 24px;
+            align-items: stretch;
+            margin-bottom: 28px;
+        }
+
+        .panel {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-xl);
+            box-shadow: var(--shadow);
+            backdrop-filter: blur(18px);
+        }
+
+        .hero-copy {
+            padding: 28px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 22px;
+        }
+
+        .brand img {
+            width: clamp(170px, 24vw, 240px);
+            height: auto;
+            display: block;
+        }
+
+        h1 {
+            margin: 0;
+            max-width: 11ch;
+            font-family: "Fraunces", Georgia, serif;
+            font-size: clamp(2.8rem, 6vw, 4.9rem);
+            line-height: 0.98;
+            letter-spacing: -0.04em;
+        }
+
+        .hero-meta {
+            padding: 24px;
+            display: grid;
+            gap: 16px;
+            align-content: start;
+            background:
+                linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.75)),
+                radial-gradient(circle at top right, rgba(15, 124, 130, 0.1), transparent 52%);
+        }
+
+        .hero-meta h2 {
+            margin: 0;
+            font-size: 1.05rem;
+            letter-spacing: -0.02em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .stat {
+            padding: 16px;
+            border-radius: var(--radius-md);
+            background: rgba(248, 251, 252, 0.92);
+            border: 1px solid rgba(17, 35, 58, 0.07);
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 1.8rem;
+            line-height: 1;
+            letter-spacing: -0.04em;
+        }
+
+        .stat a {
+            display: block;
+            margin-top: 8px;
+            color: var(--muted);
+            font-size: 0.95rem;
+            text-decoration: none;
+        }
+
+        .stat a:hover,
+        .stat a:focus-visible {
+            color: var(--accent-strong);
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px;
+        }
+
+        .section-card {
+            padding: 24px;
+        }
+
+        .section-head {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 14px;
+            margin-bottom: 18px;
+        }
+
+        .section-head h2 {
+            margin: 0;
+            font-size: 1.35rem;
+            letter-spacing: -0.03em;
+        }
+
+        .section-tag {
+            flex: none;
+            padding: 8px 12px;
+            border-radius: 999px;
+            background: var(--accent-soft);
+            color: var(--accent-strong);
+            font-size: 0.85rem;
+            font-weight: 800;
+        }
+
+        .resource-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            gap: 12px;
+        }
+
+        .resource-list > li {
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.88);
+            border: 1px solid rgba(17, 35, 58, 0.08);
+            transition: transform 160ms ease, border-color 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+        }
+
+        .resource-list > li:hover,
+        .resource-list > li:focus-within {
+            transform: translateY(-2px);
+            border-color: rgba(15, 124, 130, 0.24);
+            background: #ffffff;
+            box-shadow: 0 14px 26px rgba(27, 53, 82, 0.1);
+        }
+
+        .resource-list > li > a {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            grid-template-areas:
+                "title arrow"
+                "meta arrow";
+            column-gap: 14px;
+            row-gap: 5px;
+            align-items: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        .resource-list > li > a:focus-visible {
+            outline: none;
+        }
+
+        .resource-list > li > a > strong {
+            grid-area: title;
+            display: block;
+            min-width: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+
+        .resource-list > li > a > small {
+            grid-area: meta;
+            display: block;
+            min-width: 0;
+            color: var(--muted);
+            font-size: 0.93rem;
+            line-height: 1.35;
+        }
+
+        .resource-list > li > a::after {
+            content: ">";
+            grid-area: arrow;
+            flex: none;
+            width: 38px;
+            height: 38px;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            background: var(--accent-soft);
+            color: var(--accent-strong);
+            font-weight: 800;
+        }
+
+        @media (max-width: 960px) {
+            .hero,
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                max-width: none;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .page {
+                width: min(100% - 20px, 1120px);
+                padding: 18px 0 40px;
+            }
+
+            .hero-copy,
+            .hero-meta,
+            .section-card {
+                padding: 20px;
+            }
+
+            .brand {
+                margin-bottom: 18px;
+            }
+
+            .stats {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .resource-list > li > a {
+                padding: 13px 14px;
+            }
+        }
+    </style>
+    <script>
+        function initCounts() {
+            const countTargets = document.querySelectorAll("[data-count-source]");
+            const countedLists = document.querySelectorAll(".resource-list[id]");
+
+            function updateCounts() {
+                countTargets.forEach((target) => {
+                    const list = document.getElementById(target.dataset.countSource);
+
+                    if (!list) {
+                        return;
+                    }
+
+                    const count = list.querySelectorAll("li").length;
+                    const suffix = target.dataset.countSuffix;
+                    target.textContent = suffix ? count + " " + suffix : count;
+                });
+            }
+
+            const observer = new MutationObserver(updateCounts);
+
+            countedLists.forEach((list) => {
+                observer.observe(list, { childList: true, subtree: true });
+            });
+
+            updateCounts();
+        }
+    </script>    
+</head>
+
+<body onload="initCounts();">
+    <main class="page">
+        <section class="hero">
+            <div class="panel hero-copy">
+                <div class="brand">
+                    <img src="./efferent_logo.png" alt="Efferent Health logo">
+                </div>
+                <h1>Release Notes and Knowledge Base</h1>
+            </div>
+
+            <nav class="panel hero-meta" aria-label="Resource summary">
+                <h2>Summary</h2>
+                <div class="stats">
+                    <div class="stat">
+                        <strong data-count-source="release-notes-list">0</strong>
+                        <a href="#release-notes">eVue and eFit releases</a>
+                    </div>
+                    <div class="stat">
+                        <strong data-count-source="smartlink-releases-list">0</strong>
+                        <a href="#smartlink-releases">SmartLink releases</a>
+                    </div>
+                    <div class="stat">
+                        <strong data-count-source="knowledge-base-list">0</strong>
+                        <a href="#knowledge-base">Knowledge base articles</a>
+                    </div>
+                    <div class="stat">
+                        <strong data-count-source="videos-list">0</strong>
+                        <a href="#videos">eFit tutorial videos</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="content-grid">
+            <article class="panel section-card" id="release-notes">
+                <div class="section-head">
+                    <div>
+                        <h2>eVue and eFit Release Notes</h2>
+                    </div>
+                    <span class="section-tag" data-count-source="release-notes-list" data-count-suffix="updates">0 updates</span>
+                </div>
+                <ul class="resource-list" id="release-notes-list">
+                    <li><a href="./ReleaseNotes/eVue5.20/index.html"><strong>Version 5.20</strong><small>May 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.21/index.html"><strong>Version 5.21</strong><small>June 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.22/index.html"><strong>Version 5.22</strong><small>July 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.23/index.html"><strong>Version 5.23</strong><small>August 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.24/index.html"><strong>Version 5.24</strong><small>September 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.25/index.html"><strong>Version 5.25</strong><small>October 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.26/index.html"><strong>Version 5.26</strong><small>November 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.27/index.html"><strong>Version 5.27</strong><small>December 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.28/index.html"><strong>Version 5.28</strong><small>January 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.29/index.html"><strong>Version 5.29</strong><small>February 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.32/index.html"><strong>Version 5.32</strong><small>May 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.33/index.html"><strong>Version 5.33</strong><small>June 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.34/index.html"><strong>Version 5.34</strong><small>July 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.35/index.html"><strong>Version 5.35</strong><small>August 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.36/index.html"><strong>Version 5.36</strong><small>September 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.37/index.html"><strong>Version 5.37</strong><small>November 2025</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.38/index.html"><strong>Version 5.38</strong><small>January 2026</small></a></li>
+                    <li><a href="./ReleaseNotes/eVue5.39/index.html"><strong>Version 5.39</strong><small>February 2026</small></a></li>
+                </ul>
+            </article>
+
+            <article class="panel section-card" id="smartlink-releases">
+                <div class="section-head">
+                    <div>
+                        <h2>SmartLink Release Notes</h2>
+                    </div>
+                    <span class="section-tag" data-count-source="smartlink-releases-list" data-count-suffix="updates">0 updates</span>
+                </div>
+                <ul class="resource-list" id="smartlink-releases-list">
+                    <li><a href="./ReleaseNotes/Smartlink5.20/index.html"><strong>Version 5.20</strong><small>May 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/Smartlink5.21/index.html"><strong>Version 5.21</strong><small>June 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/Smartlink5.22/index.html"><strong>Version 5.22</strong><small>July 2024</small></a></li>
+                    <li><a href="./ReleaseNotes/Smartlink5.23/index.html"><strong>Version 5.23</strong><small>August 2024</small></a></li>
+                </ul>
+            </article>
+
+            <article class="panel section-card" id="knowledge-base">
+                <div class="section-head">
+                    <div>
+                        <h2>Knowledge Base</h2>
+                    </div>
+                    <span class="section-tag" data-count-source="knowledge-base-list" data-count-suffix="articles">0 articles</span>
+                </div>
+                <ul class="resource-list" id="knowledge-base-list">
+                    <li><a href="./KnowledgeBase/SmartShareReceiver/index.html"><strong>SmartShare receiver</strong><small>Setup and usage guide</small></a></li>
+                    <li><a href="./KnowledgeBase/Anonymization/index.html"><strong>Anonymization and de-identification</strong><small>Data privacy workflow</small></a></li>
+                    <li><a href="./KnowledgeBase/eVueFeatures/index.html"><strong>eVue features per role</strong><small>Role-based capability overview</small></a></li>
+                </ul>
+            </article>
+
+            <article class="panel section-card" id="videos">
+                <div class="section-head">
+                    <div>
+                        <h2>eFit Videos</h2>
+                    </div>
+                    <span class="section-tag" data-count-source="videos-list" data-count-suffix="videos">0 videos</span>
+                </div>
+                <ul class="resource-list" id="videos-list">
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%201.mp4"><strong>Part 1</strong><small>Calibration overview</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%202.mp4"><strong>Part 2</strong><small>Manual mode - Hip</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%202a.mp4"><strong>Part 2a</strong><small>Manual mode - Knee</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%203.mp4"><strong>Part 3</strong><small>Saving Favorites</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%204.mp4"><strong>Part 4</strong><small>AI Workflow - Hip</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%204a.mp4"><strong>Part 4a</strong><small>AI Workflow - Knee</small></a></li>
+                    <li><a href="https://efferenthealth.com/kb/eFit%20-%20Part%205.mp4"><strong>Part 5</strong><small>Calibration, AI, SmartShare</small></a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+</body>
 </html>
